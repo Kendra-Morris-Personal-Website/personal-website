@@ -4,7 +4,11 @@ body{
 
 h1{
     text-align: center;
-    color: antiquewhite;
-    font-size: larger;
+    color: white;
+    font: size 60px;;
     font-family: 'Courier New', Courier, monospace;
+}
+img{
+    height: 250px;
+    width: 215px ;
 }
