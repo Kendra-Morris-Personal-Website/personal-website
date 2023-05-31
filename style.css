@@ -1,14 +1,101 @@
 body{
-    background-color: lightblue;
+    background-color: tan;
+    color:black;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+.homepage{
+    min-height: 100vh;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction:column;
+}
+
+.indexbackground{
+    background-color:rgb(116, 85, 56);
+    height: 1000px;
+    width: 785px;
+    border-color:black;border-width: 8px;border-style: solid;
+    padding-left: 8px;
+    position: inherit;
+    margin-left: 134px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    margin-right: 9px;
+}
+
+.indexbackground1{
+    background-color:wheat;
+    color: black;
+    height: 1000px;
+    width: 800px;
+    border-color:white;border-style: solid;border-width: 30px;
+    margin-top:-1050px;
+    margin-bottom:10px ;
+    margin-left:735px ;
+    margin-right:10px ;
+    display:block;
+    position:inherit;
 }
 
 h1{
     text-align: center;
-    color: white;
-    font: size 60px;;
+    color:black;
+    font-size: 65px;
     font-family: 'Courier New', Courier, monospace;
 }
-img{
-    height: 250px;
-    width: 215px ;
+
+.About{display: block;
+       font-weight: bold;
+       margin-right: 350px;
+       color:black;
+       position: relative;
+       text-align:left;
+}
+
+.About1{display: block;
+    font-weight: bold;
+    color: black;
+    position:relative;
+    text-align:left;
+}
+.Introduction{color: white;font-size: xx-large;}
+
+footer{color: white;}
+
+.picture1{
+    height: 300px;
+    width: 265px ;
+    margin-top:-302px;
+    margin-bottom:-72px ;
+    margin-left:1123px ;
+    margin-right:0px ;
+    position: relative;
+    border-color: white;
+
+}
+
+.picture2{
+    height: 300px;
+    width: 265px ;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-left:1123px;
+    margin-right:0px;
+    padding-top: 98px;
+    padding-bottom: 20px;
+}          
+
+div{color: white;}
+
+button{color: white;
+       background-color:transparent;border-width: 5px;border-color:black;border-style:double;
+       font-family: 'Courier New', Courier, monospace;
+       font-size: 24px;
+       font-weight:lighter;
+       padding-bottom: 5px;
+       padding-top: 5px;
+       margin-bottom: 5px;
+
 }
