@@ -10,15 +10,26 @@
 <body>
     <header>
     <h1>DIGITAL PORTFOLIO</h1>
-        <button>Home</button>
-        <button>About</button>
-        <button>Portfolio</button> 
+        <button id="ButtonA">Home</button>
+        <button id="ButtonB">About</button>
+        <button id="ButtonC">Portfolio</button> 
     </header>   
     <section class="indexbackground"></section>
     <section class="indexbackground1"></section>
         
 
    <script src="javascript.js"></script> 
+   <script type="text/javascript">
+    document.getElementById("ButtonA").onclick = function () {
+        location.href = "index.html";
+    };
+    document.getElementById("ButtonB").onclick = function () {
+        location.href = "about.html";
+    };
+    document.getElementById("ButtonC").onclick = function () {
+        location.href = "portfolio.html";
+    };
+</script>
 </body>
 <footer>Copyright 2023. Digital Portfolio</footer>
 </html>

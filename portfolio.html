@@ -11,8 +11,9 @@
 <body class="homepage">
 
     <h1>WORK</h1>
-        <button>Back</button>
-    
+        <button class="ButtonA">Home</button>
+        <button class="ButtonD">Back</button>
+
     <h2>PROJECT 1</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, dicta voluptas nam excepturi ducimus amet ipsa est delectus explicabo, numquam sed quidem. Dolores molestias veritatis doloremque dolorum ullam dolor in!</p>
     <div>_____________________________________________________________________________</div>
@@ -33,6 +34,15 @@
     <section class="workbackground1"></section>
 
     <script src="javascript.js"></script>    
+    <script type="text/javascript">
+        document.getElementById("ButtonA").onclick = function () {
+            location.href = "index.html";
+        };
+        document.getElementById("ButtonD").onclick = function () {
+            location.href = "about.html";
+        };
+       
+    </script>
 </body>
 <footer>Copyright 2023. Digital Portfolio</footer>
 </html>
